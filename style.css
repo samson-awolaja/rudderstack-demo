@@ -71,6 +71,7 @@ img.icon-form-input-image {
 }
 
 input {    
+    width: 100%;
     margin-bottom: 0px;
     padding: 0px;
     border: 1px none #000;
