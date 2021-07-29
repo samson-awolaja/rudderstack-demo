@@ -7,5 +7,7 @@ document.querySelector("#email-form").addEventListener("submit", function(event)
 
     console.log(email)
 
+    rudderanalytics.idenitfy(email, )
+
     emailForm.value = ""
 } )
