@@ -11,8 +11,8 @@
     <script>
         ! function() {
             var e = window.rudderanalytics = window.rudderanalytics || [];
-            var WRITE_KEY = "2H4LXb68TxYvnZbPgLGDftpgxoN";
-            var DATA_PLANE_URL = "https://ketchintenzdk.dataplane.rudderstack.com";
+            // var WRITE_KEY = "2H4LXb68TxYvnZbPgLGDftpgxoN";
+            // var DATA_PLANE_URL = "https://ketchintenzdk.dataplane.rudderstack.com";
             e.methods = ["load", "page", "track", "identify", "alias", "group", "ready", "reset", "getAnonymousId", "setAnonymousId", "getUserId", "getUserTraits", "getGroupId", "getGroupTraits"], e.factory = function(t) {
                 return function() {
                     var r = Array.prototype.slice.call(arguments);
@@ -29,7 +29,7 @@
                     var a = document.getElementsByTagName("script")[0];
                     a.parentNode.insertBefore(r, a)
                 }, e.loadJS(),
-                e.load(WRITE_KEY, DATA_PLANE_URL),
+                e.load("2H4LXb68TxYvnZbPgLGDftpgxoN", "https://ketchintenzdk.dataplane.rudderstack.com"),
                 e.page()
         }();
     
@@ -39,7 +39,7 @@
 
     <!-- End RudderStack Snippet -->
     
-    <title>RudderStack in 5</title>
+    <title>RudderStack Demo</title>
 </head>
 <body>
     
